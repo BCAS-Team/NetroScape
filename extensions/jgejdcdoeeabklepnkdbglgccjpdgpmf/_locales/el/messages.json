@@ -1,0 +1,956 @@
+{
+    "ext_description": {
+      "message": "Μια νέα επέκταση που επιστρέφει την παλιά εμφάνιση του Twitter."
+    },
+    "timeline": {
+      "message": "Χρονολόγιο"
+    },
+    "loading": {
+      "message": "Φόρτωση"
+    },
+    "tweets": {
+      "message": "Tweets"
+    },
+    "following_btn": { "message": "Ακολουθείτε", "description": "This one is used in button showing that user is following someone." },
+    "following": { "message": "Ακόλουθοι", "description": "This is used in list showing who user follows. Try to keep this word equal or less than 9 characters" },
+    "followers": {
+      "message": "Ακόλουθους",
+      "description": "Try to keep this word equal or less than 9 characters"
+    },
+    "trends": {
+      "message": "Τάσεις"
+    },
+    "tweet": {
+      "message": "Tweet"
+    },
+    "load_more": {
+      "message": "Φόρτωσε περισσότερα"
+    },
+    "who_to_follow": {
+      "message": "Ποιον να ακολουθήσεις",
+      "description": "Max 19 characters, you can use word 'People' if no space"
+    },
+    "refresh": {
+      "message": "Ανανέωση"
+    },
+    "view_all": {
+      "message": "Προβολή όλων"
+    },
+    "running": {
+      "message": "Ενεργό",
+      "example": "->Running<- OldTwitter v0.0.0"
+    },
+    "created_by": {
+      "message": "Δημιουργήθηκε από τον",
+      "example": "->Created by<- dimden"
+    },
+    "website": {
+      "message": "Ιστοσελίδα"
+    },
+    "help": {
+      "message": "Βοήθεια",
+      "description": "noun"
+    },
+    "terms": {
+      "message": "Όροι",
+      "description": "Shortest word that you can find for Terms of service"
+    },
+    "privacy": {
+      "message": "Aπόρρητο",
+      "description": "Shortest word that you can find for Privacy policy"
+    },
+    "about": {
+      "message": "Σχετικά"
+    },
+    "donate": {
+      "message": "Δωρέες"
+    },
+    "home": {
+      "message": "Ροή",
+      "description": "This is for navbar menu. If no appropriate word, you can use something like Feed or Timeline"
+    },
+    "notifications": {
+      "message": "Ειδοποιήσεις"
+    },
+    "messages": {
+      "message": "Μηνύματα"
+    },
+    "search_twitter": {
+      "message": "Αναζήτηση στο Twitter"
+    },
+    "profile": {
+      "message": "Προφίλ"
+    },
+    "settings": {
+      "message": "Ρυθμίσεις"
+    },
+    "lists": {
+      "message": "Λίστες"
+    },
+    "list": {
+      "message": "Λίστα"
+    },
+    "bookmarks": {
+      "message": "Σελιδοδείκτες"
+    },
+    "manage_accounts": {
+      "message": "Διαχείριση λογαριασμών"
+    },
+    "logout": {
+      "message": "Αποσύνδεση"
+    },
+    "whats_happening": {
+      "message": "Τι συμβαίνει;"
+    },
+    "variant": {
+      "message": "Παραλαγή"
+    },
+    "optional": {
+      "message": "(προαιρετικό)"
+    },
+    "days": {
+      "message": "Ημέρες"
+    },
+    "hours": {
+      "message": "Ώρες"
+    },
+    "minutes": {
+      "message": "Λεπτά"
+    },
+    "remove_poll": {
+      "message": "Κατάργηση ψήφου"
+    },
+    "open_newtwitter": {
+      "message": "Ανοίξτε αυτήν τη σελίδα στο νέο Twitter"
+    },
+    "last_version": {
+      "message": "τελευταία έκδοση"
+    },
+    "thank_you": {
+      "message": "Σας ευχαριστούμε που εγκαταστήσατε το OldTwitter!! Ελπίζω να σας αρέσει. Ελέγξτε τις <a target=\"_blank\" href=\"/old/settings\">ρυθμίσεις επέκτασης</a>!"
+    },
+    "follow_mb": {
+      "message": "Ακολουθήστε με ίσως;"
+    },
+    "follow": {
+      "message": "Ακολουθήστε"
+    },
+    "unfollow": {
+      "message": "Κατάργηση ακολούθησης"
+    },
+    "follow_user": {
+      "message": "Ακολουθήστε τον",
+      "example": "->Follow<- @CoolPerson2000"
+    },
+    "unfollow_user": {
+      "message": "Κατάργηση ακολούθησης του",
+      "example": "->Unfollow<- @CoolPerson2000"
+    },
+    "thank_you_follow": {
+      "message": "Ευχαριστώ που με ακολουθήσατε!!"
+    },
+    "loading_tweets": {
+      "message": "Φόρτωση των tweet..."
+    },
+    "retweeted": {
+      "message": "αναδημοσίευσε",
+      "example": "CoolPerson2000 ->retweeted<-"
+    },
+    "see_new_tweets": {
+      "message": "Δείτε νέα tweets"
+    },
+    "must2variants": {
+      "message": "Πρέπει να έχετε τουλάχιστον 2 διαφορετικές ψηφοφορίες."
+    },
+    "delete_all": {
+      "message": "Διαγραφή όλων"
+    },
+    "empty": {
+      "message": "Ουάου, τόσο άδειο",
+      "description": "Funky message about nothing found"
+    },
+    "delete_bookmarks": {
+      "message": "Είστε σίγουροι ότι θέλετε να διαγράψετε όλους τους σελιδοδείκτες σας; Αυτήν η πράξη δεν μπορεί να αναιρεθεί."
+    },
+    "members": {
+      "message": "Μέλη"
+    },
+    "subscribers": {
+      "message": "Συνδρομητές"
+    },
+    "list_members": {
+      "message": "Κατάλογος μελών"
+    },
+    "list_subscribers": {
+      "message": "Κατάλογος συνδρομητών"
+    },
+    "edit": {
+      "message": "Επεξεργασία"
+    },
+    "delete": {
+      "message": "Διαγράφη"
+    },
+    "remove": {
+      "message": "Aφαίρεση"
+    },
+    "edit_list": {
+      "message": "Επεξεργασία λίστας"
+    },
+    "edit_members": {
+      "message": "Επεξεργασία μελών"
+    },
+    "save": {
+      "message": "Αποθηκεύση"
+    },
+    "back": {
+      "message": "Πίσω"
+    },
+    "delete_list": {
+      "message": "Διαγραφή λίστας"
+    },
+    "delete_list_sure": {
+      "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν τη λίστα;"
+    },
+    "unsubscribe": {
+      "message": "Απεγγραφή"
+    },
+    "subscribe": {
+      "message": "Εγγραφή"
+    },
+    "list_not_found": {
+      "message": "Η λίστα δεν βρέθηκε."
+    },
+    "go_homepage": {
+      "message": "Πήγαινε στην αρχική σελίδα."
+    },
+    "mentions": {
+      "message": "Αναφορές"
+    },
+    "tweeted_like": {
+      "message": "έκανε tweet κάτι που μπορεί να σάς αρέσει",
+      "example": "CoolPerson2000 ->tweeted something you might like<-"
+    },
+    "favorites": {
+      "message": "Αγαπημένα"
+    },
+    "follows_you": {
+      "message": "Σε ακολουθει"
+    },
+    "tweet_to_user": {
+      "message": "Tweet στον χρήστη"
+    },
+    "followers_you_know": {
+      "message": "ακόλουθους που γνωρίζετε",
+      "example": "123 ->followers you know<-"
+    },
+    "photos_and_videos": {
+      "message": "Φωτογραφίες και βίντεο"
+    },
+    "photos_and_videos2": {
+      "message": "Φωτογραφίες & βίντεο"
+    },
+    "tweets_and_replies": {
+      "message": "Tweets & Aπαντήσεις"
+    },
+    "you_may_also_like": {
+      "message": "Μπορεί να σας αρέσει",
+      "description": "Max 19 characters, you can use word 'People' if no space"
+    },
+    "user_was_not_found": {
+      "message": "Ο χρήστης δεν βρέθηκε."
+    },
+    "timeline_not_authorized": {
+      "message": "Δεν έχετε την άδεια για να δείτε το χρονοδιάγραμμα αυτού του χρήστη"
+    },
+    "create_btn": {
+      "message": "[δημιουργία]"
+    },
+    "create_list": {
+      "message": "Δημιουργία λίστας"
+    },
+    "create": {
+      "message": "Δημιουργία"
+    },
+    "name": {
+      "message": "Όνομα"
+    },
+    "description": {
+      "message": "Περιγραφή"
+    },
+    "no_description": {
+      "message": "Χωρίς περιγραφή."
+    },
+    "born": {
+      "message": "Γεννήθηκε"
+    },
+    "january": {
+      "message": "Ιανουάριος",
+      "description": "Used in 'Born January 1'. You can move on left if it sounds better in your language like that."
+    },
+    "february": {
+      "message": "Φεβρουάριος"
+    },
+    "march": {
+      "message": "Μάρτιος"
+    },
+    "april": {
+      "message": "Απρίλιος"
+    },
+    "may": {
+      "message": "Μάιος"
+    },
+    "june": {
+      "message": "Ιούνιος"
+    },
+    "july": {
+      "message": "Ιούλιος"
+    },
+    "august": {
+      "message": "Αύγουστος"
+    },
+    "september": {
+      "message": "Σεπτέμβριος"
+    },
+    "october": {
+      "message": "Οκτώβριος"
+    },
+    "november": {
+      "message": "Νοέμβριος"
+    },
+    "december": {
+      "message": "Δεκέμβριος"
+    },
+    "tweet_to": {
+      "message": "Tweet στον",
+      "example": "->Tweet to<- @CoolPerson2000"
+    },
+    "translated_from": {
+      "message": "Μετάφραση από",
+      "example": "->Translated from<- Japanese"
+    },
+    "translate_bio": {
+      "message": "Μετάφραση βιογραφικού"
+    },
+    "edit_profile": {
+      "message": "Επεξεργασία προφίλ"
+    },
+    "follow_request_sent": {
+      "message": "Αίτημα ακολούθησης στάλθηκε"
+    },
+    "unblock_user": {
+      "message": "Ξεμπλοκάρετε τον",
+      "example": "->Unblock<- @CoolPerson2000"
+    },
+    "unblock": {
+      "message": "Ξεμπλοκάρισμα",
+      "description": "Just for unblock button"
+    },
+    "block_user": {
+      "message": "Ππλοκάρετε τον",
+      "example": "->Block<- @CoolPerson2000"
+    },
+    "block": {
+      "message": "Ππλόκ",
+      "description": "Just for block button"
+    },
+    "mute": {
+      "message": "Αγνοήστε"
+    },
+    "unmute": {
+      "message": "Σταματήστε να αγνοείτε"
+    },
+    "see_lists": {
+      "message": "Δείτε λίστες"
+    },
+    "stop_notifications": {
+      "message": "Σταματήστε να λαμβάνετε ειδοποιήσεις"
+    },
+    "receive_notifications": {
+      "message": "Λήψη ειδοποιήσεων"
+    },
+    "from_list": {
+      "message": "Προσθήκη/αφαίρεση από τη λίστα"
+    },
+    "share_user": {
+      "message": "Κοινή χρήση χρήστη"
+    },
+    "copy_profile_link": {
+      "message": "Αντιγραφή συνδέσμου προφίλ"
+    },
+    "remove_from_followers": {
+      "message": "Κατάργηση από τους ακόλουθους τους",
+      "description": "This button unfollows person from you, not unfollows you from them"
+    },
+    "remove_from_followers_sure": {
+      "message": "Είστε βέβαιοι ότι θέλετε να καταργήσετε @$SCREEN_NAME$ από τους ακόλουθους σου;",
+      "placeholders": {
+        "screen_name": {
+          "content": "CoolPerson2000"
+        }
+      }
+    },
+    "remove_from_followers_warn": {
+      "message": "ΑΥΤΟ ΘΑ ΤΟΥΣ ΑΦΑΙΡΕΙ ΑΠΟ ΤΗ ΔΙΚΙ ΤΟΥΣ ΛΙΣΤΑ ΑΚΟΛΟΥΘΩΝ, ΟΧΙ ΑΠΟ ΤΗ ΛΙΣΤΑ ΑΚΟΛΟΥΘΩΝ ΣΑΣ."
+    },
+    "remove_from_followers_button": {
+      "message": "Κατάργηση παρακολούθησης τους από εμένα"
+    },
+    "able_in_future": {
+      "message": "Θα μπορούν να σας ακολουθήσουν ξανά στο μέλλον."
+    },
+    "block_sure": {
+      "message": "Είστε βέβαιοι ότι θέλετε να μπλοκάρετε",
+      "example": "->Are you sure you want to block<- @CoolPerson2000?"
+    },
+    "add": {
+      "message": "Προσθήκη"
+    },
+    "joined": {
+      "message": "Έγινε μέλος",
+      "example": "->Joined<- April 30, 2019"
+    },
+    "birthday_today": {
+      "message": "(σήμερα!)"
+    },
+    "pinned_tweet": {
+      "message": "Καρφιτσωμένο tweet"
+    },
+    "search": {
+      "message": "Αναζήτηση"
+    },
+    "popular": {
+      "message": "Δημοφιλής"
+    },
+    "live": {
+      "message": "Ζωντανό"
+    },
+    "people": {
+      "message": "Άτομα"
+    },
+    "photos": {
+      "message": "Φωτογραφίες"
+    },
+    "videos": {
+      "message": "Βίντεο"
+    },
+    "all_people": {
+      "message": "Όλα άτομα"
+    },
+    "people_yk": {
+      "message": "Άτομα που ξέρεις"
+    },
+    "everywhere": {
+      "message": "Παντού"
+    },
+    "near_you": {
+      "message": "Κοντά σας"
+    },
+    "advanced_search": {
+      "message": "Προχωρημένη Αναζήτηση"
+    },
+    "save_search": {
+      "message": "Αποθηκεύστε αυτήν την αναζήτηση"
+    },
+    "remove_search": {
+      "message": "Κατάργηση από αποθηκευμένο"
+    },
+    "try_again": {
+      "message": "Προσπάθησε ξανά"
+    },
+    "no_results": {
+      "message": "Δεν βρέθηκαν αποτελέσματα. Δοκιμάστε να αλλάξετε κάτι στα αριστερά;"
+    },
+    "words": {
+      "message": "Λέξεις"
+    },
+    "all_these_words": {
+      "message": "Όλες αυτές οι λέξεις"
+    },
+    "all_these_words_example": {
+      "message": "Παράδειγμα: τι συμβαίνει - περιλαμβάνει \"τι\", \"συμβαίνει\""
+    },
+    "exact_phrase": {
+      "message": "Ακριβής φράση"
+    },
+    "exact_phrase_example": {
+      "message": "Παράδειγμα: χαρούμενος χρόνος - περιλαμβάνει \"χαρούμενος χρόνος\""
+    },
+    "any_words": {
+      "message": "Οποιαδήποτε από αυτές τις λέξεις"
+    },
+    "any_words_example": {
+      "message": "Παράδειγμα: γάτες σκύλους - περιλαμβάνει είτε \"γάτες\" ή \"σκύλους\""
+    },
+    "not_these_words": {
+      "message": "Καμία από αυτές τις λέξεις"
+    },
+    "not_these_words_example": {
+      "message": "Παράδειγμα: γάτες σκύλους - εξαιρούνται οι \"γάτες\" και \"σκύλους\""
+    },
+    "user": {
+      "message": "Χρήστης"
+    },
+    "from_this_user": {
+      "message": "Από αυτόν τον χρήστη"
+    },
+    "from_this_user_example": {
+      "message": "Παράδειγμα: @dimden - από τον χρήστη dimden"
+    },
+    "mentions_this_user": {
+      "message": "Αναφέρει αυτόν τον χρήστη"
+    },
+    "mentions_this_user_example": {
+      "message": "Παράδειγμα: @dimden - σε απάντηση στο dimden"
+    },
+    "interactions": {
+      "message": "Interactions"
+    },
+    "min_replies": {
+      "message": "Ελάχιστος αριθμός απαντήσεων"
+    },
+    "min_replies_example": {
+      "message": "Παράδειγμα: 10 - tweets με τουλάχιστον 10 απαντήσεις"
+    },
+    "min_retweets": {
+      "message": "Ελάχιστος αριθμός retweet"
+    },
+    "min_retweets_example": {
+      "message": "Παράδειγμα: 10 - tweets με τουλάχιστον 10 retweets"
+    },
+    "min_favorites": {
+      "message": "Ελάχιστη ποσότητα αγαπημένων"
+    },
+    "min_favorites_example": {
+      "message": "Παράδειγμα: 10 - tweets με τουλάχιστον 10 αγαπημένα"
+    },
+    "dates": {
+      "message": "Ημερομηνίες"
+    },
+    "since": {
+      "message": "Από"
+    },
+    "until": {
+      "message": "Μέχρι"
+    },
+    "twitter_settings": {
+      "message": "Ρυθμίσεις Twitter"
+    },
+    "oldtwitter_settings": {
+      "message": "Ρυθμίσεις OldTwitter"
+    },
+    "edit_twitter_settings": {
+      "message": "Επεξεργαστείτε τις ρυθμίσεις Twitter"
+    },
+    "refresh_tabs": {
+      "message": "Ανανεώστε τις καρτέλες για να εφαρμόσετε ρυθμίσεις"
+    },
+    "chrono": {
+      "message": "Αντίστροφη χρονολογική"
+    },
+    "chrono_social": {
+      "message": "Αντίστροφη χρονολογική με likes φίλων"
+    },
+    "algo": {
+      "message": "Αλγοριθμική"
+    },
+    "timeline_type": {
+      "message": "Τύπος χρονολογίου"
+    },
+    "show_topic_tweets": {
+      "message": "Εμφάνιση θεματικών tweets (μόνο algo)"
+    },
+    "slow_show_colors_in_timeline": {
+      "message": "Show custom link colors of users in home timeline (This can cause slow downs on some devices!)"
+    },
+    "enable_twemoji": {
+      "message": "Ενεργοποιήστε Twemoji"
+    },
+    "hearts_instead_stars": {
+      "message": "Εμφάνιση καρδιών (μου αρέσει) αντί για αστέρια (αγαπημένα)"
+    },
+    "dark_mode": {
+      "message": "Σκοτεινή λειτουργία"
+    },
+    "disable_hotkeys": {
+      "message": "Απενεργοποιήστε τα πλήκτρα πρόσβασης (hotkeys)"
+    },
+    "hotkeys_list": {
+      "message": "Δείτε τη λίστα των πλήκτρων πρόσβασης (hotkeys) εδώ"
+    },
+    "no_big_font": {
+      "message": "Απενεργοποιήστε τη μεγάλη γραμματοσειρά για σύντομα tweets."
+    },
+    "save_preferred_quality": {
+      "message": "Αποθηκεύστε την προτιμώμενη ποιότητα βίντεο. Εάν αυτό οριστεί σε true, το OldTwitter θα αποθηκεύσει την ποιότητα του βίντεο που προτιμάτε και θα το χρησιμοποιήσει (ή θα χρησιμοποιήσει την πλησιέστερη ποιότητα στην προτιμώμενη). Εάν είναι απενεργοποιημένο, το OldTwitter θα επιλέξει την υψηλότερη ποιότητα)."
+    },
+    "preferred_quality": {
+      "message": "Προτιμώμενη ποιότητα"
+    },
+    "default_link_color": {
+      "message": "Προεπιλεγμένο χρώμα συνδέσμου"
+    },
+    "font": {
+      "message": "Γραμματοσειρά"
+    },
+    "color_sync": {
+      "message": "Συγχρονισμός χρώματος συνδέσμου"
+    },
+    "by_pressing_sync": {
+      "message": "Πατώντας το κουμπί Συγχρονισμός, το χρώμα του συνδέσμου του προφίλ σας θα αποσταλεί στη βάση δεδομένων χρωμάτων και θα εμφανίζεται σε άλλους χρήστες τις επέκτασης."
+    },
+    "color_years_ago": {
+      "message": "Εάν έχετε ρυθμίσει το χρώμα συνδέσμου Twitter στο παρελθόν (πριν από χρόνια, όταν ήταν ακόμα ένα πράγμα), θα παρακάμψει το παλιό σας χρώμα."
+    },
+    "sync": {
+      "message": "Συγχρονισμός"
+    },
+    "profile_link_color": {
+      "message": "Χρώμα συνδέσμου προφίλ"
+    },
+    "light_mode_link": {
+      "message": "Σύνδεσμος λειτουργίας φωτός"
+    },
+    "dark_mode_link": {
+      "message": "Σύνδεσμος σκοτεινής λειτουργίας"
+    },
+    "custom_css": {
+      "message": "Προσαρμοσμένο CSS"
+    },
+    "css_var_override": {
+      "message": "Παράκαμψη προεπιλεγμένων μεταβλητών CSS. Πληκτρολογήστε τα ως <code>--some-variable: property</code>. Διαίρεση κατά νέα γραμμή."
+    },
+    "css_var_list": {
+      "message": "Δείτε τη λίστα με τις προεπιλεγμένες μεταβλητές CSS εδώ."
+    },
+    "save_vars": {
+      "message": "Αποθήκευση μεταβλητών"
+    },
+    "custom_css_text": {
+      "message": "Προσαρμοσμένο CSS για προσθήκη σε κάθε σελίδα."
+    },
+    "save_css": {
+      "message": "Αποθήκευση CSS"
+    },
+    "error_setting_color": {
+      "message": "Σφάλμα κατά τη ρύθμιση του χρώματος του συνδέσμου"
+    },
+    "link_color_set": {
+      "message": "Xρώμα συνδέσμου αποθηκεύτηκε!"
+    },
+    "retweeted_by": {
+      "message": "Retweeted από"
+    },
+    "see_quotes": {
+      "message": "δείτε εισαγωγικά"
+    },
+    "see_quotes_big": {
+      "message": "Δείτε εισαγωγικά"
+    },
+    "quote_tweets": {
+      "message": "Παράθεση tweets"
+    },
+    "see_retweets": {
+      "message": "δείτε retweets"
+    },
+    "reply_to": {
+      "message": "Απάντηση στον",
+      "example": "->Reply to<- @CoolGuy2000"
+    },
+    "error_loading_tweet": {
+      "message": "Σφάλμα κατά τη φόρτωση του tweet"
+    },
+    "direct_messages": {
+      "message": "Αμεσα μηνύματα"
+    },
+    "mark_all_read": {
+      "message": "Επισήμανση όλων ως αναγνωσμένων"
+    },
+    "send": {
+      "message": "Send",
+      "description": "Max 5 characters, if no word keep it in English"
+    },
+    "new_message": {
+      "message": "Νέο μήνυμα"
+    },
+    "create_new_group": {
+      "message": "Δημιουργία νέας ομάδας"
+    },
+    "search_people": {
+      "message": "Αναζήτηση ατόμων"
+    },
+    "type_message": {
+      "message": "Πληκτρολογήστε το μήνυμά σας"
+    },
+    "cant_send": {
+      "message": "Δεν μπορείτε να στείλετε μηνύματα σε αυτόν τον χρήστη."
+    },
+    "gifs_max": {
+      "message": "GIFs πρέπει να είναι μικρότερα από 15 MB"
+    },
+    "videos_max": {
+      "message": "Βίντεο πρέπει να είναι μικρότερα από 500 MB"
+    },
+    "images_max": {
+      "message": "Εικόνες πρέπει να είναι μικρότερες από 5 MB"
+    },
+    "max_count": {
+      "message": "Μπορείτε να ανεβάσετε μόνο έως 4 εικόνες ή 1 βίντεο ή 1 gif"
+    },
+    "alt_text": {
+      "message": "Εισαγάγετε εναλλακτικό κείμενο για την εικόνα"
+    },
+    "vote": {
+      "message": "ψήφος",
+      "example": "1 ->vote<-"
+    },
+    "votes": {
+      "message": "ψήφους",
+      "example": "10 ->votes<-"
+    },
+    "ends_at": {
+      "message": "Τελειώνει στις",
+      "example": "->Ends at<- 16th November"
+    },
+    "view_translation": {
+      "message": "Προβολή μετάφρασης"
+    },
+    "unsupported_video": {
+      "message": "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει αυτό το βίντεο."
+    },
+    "views": {
+      "message": "προβολές",
+      "example": "10 ->views<-"
+    },
+    "reload": {
+      "message": "Επαναφόρτωση"
+    },
+    "circle_limited_tweet": {
+      "message": "Αυτό το tweet είναι ορατό μόνο σε άτομα που ανήκουν στον κύκλο έμπιστων φίλων του @$SCREEN_NAME$.",
+      "placeholders": {
+        "screen_name": {
+          "content": "CoolPerson2000"
+        }
+      }
+    },
+    "learn_more": {
+      "message": "Μάθε περισσότερα."
+    },
+    "limited_tweet": {
+      "message": "Αυτό το tweet έχει περιορισμούς στο ποιος μπορεί να απαντήσει"
+    },
+    "replies": {
+      "message": "Απαντήσεις"
+    },
+    "retweets": {
+      "message": "Retweets"
+    },
+    "likes": {
+      "message": "Likes"
+    },
+    "show_this_thread": {
+      "message": "Εμφάνιση αυτού του νήματος"
+    },
+    "quote_tweet": {
+      "message": "Παράθεση tweet"
+    },
+    "see_retweeters": {
+      "message": "Δείτε retweeters"
+    },
+    "copy_link": {
+      "message": "Αντιγραφή συνδέσμου"
+    },
+    "embed_tweet": {
+      "message": "Ενσωμάτωση tweet"
+    },
+    "share_tweet": {
+      "message": "Κοινή χρήση tweet"
+    },
+    "tweet_analytics": {
+      "message": "Αναλυτικά Tweet"
+    },
+    "delete_tweet": {
+      "message": "Διαγραφή tweet"
+    },
+    "unpin_tweet": {
+      "message": "Ξεκαρφιτσώστε tweet"
+    },
+    "pin_tweet": {
+      "message": "Καρφιτσώστε tweet"
+    },
+    "bookmark_tweet": {
+      "message": "Σελιδοδείκτε tweet"
+    },
+    "topic_not_interested": {
+      "message": "Δεν ενδιαφέρομαι για αυτό το θέμα"
+    },
+    "refresh_tweet": {
+      "message": "Ανανέωση δεδομένων tweet"
+    },
+    "download_media": {
+      "message": "Λήψη media"
+    },
+    "download_gif": {
+      "message": "Λήψη ως GIF"
+    },
+    "replying_to_tweet": {
+      "message": "Απάντηση σε tweet"
+    },
+    "upload_media_btn": {
+      "message": "[ανέβασμα media]"
+    },
+    "cancel_btn": {
+      "message": "[άκυρο]"
+    },
+    "quote": {
+      "message": "Quote"
+    },
+    "reply_example": {
+      "message": "Ωραίο tweet απάντησης"
+    },
+    "quote_example": {
+      "message": "Ωραίο quote tweet"
+    },
+    "error_sending_tweet": {
+      "message": "Σφάλμα κατά την αποστολή tweet"
+    },
+    "retweet_sure": {
+      "message": "Είστε βέβαιοι ότι θέλετε να κάνετε retweet αυτό το tweet?"
+    },
+    "unretweet": {
+      "message": "Unretweet"
+    },
+    "retweet": {
+      "message": "Retweet"
+    },
+    "delete_sure": {
+      "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το tweet?"
+    },
+    "long_vid": {
+      "message": "Αυτό το βίντεο διαρκεί περισσότερο από 10 δευτερόλεπτα. Είστε βέβαιοι ότι θέλετε να το μετατρέψετε, μπορεί να καθυστερήσει"
+    },
+    "feedback_thanks": {
+      "message": "Ευχαριστούμε για την ανταπόκριση σας!"
+    },
+    "liked_by": {
+      "message": "Αρέσει στον"
+    },
+    "reply": {
+      "message": "Απάντηση"
+    },
+    "language": {
+      "message": "Γλώσσα (Language)",
+      "description": "Please add English 'Language' word in parentheses in addition to translation",
+      "example": "Язык (Language)"
+    },
+    "translated_by": {
+      "message": "Μεταφράστηκε από τον $TRANSLATOR$.",
+      "placeholders": {
+        "translator": {
+          "content": "CoolPerson2000"
+        }
+      }
+    },
+    "last_searches": { "message": "Τελευταίες αναζητήσεις" },
+    "saved_searches": { "message": "Αποθηκευμένες αναζητήσεις" },
+    "everyone": { "message": "Ολοι", "description": "Used to say that tweet will be shown to public (who will see the tweet?: Everyone), can use word Public if it fits better" },
+    "topic": { "message": "Θέμα" },
+    "not_interested": { "message": "Δεν ενδιαφέρομαι" },
+    "cancel": { "message": "Άκυρο" },
+    "youre_not_interested": { "message": "Δεν σε ενδιαφέρει αυτό το θέμα" },
+    "autoplay_videos": { "message": "Αυτόματη αναπαραγωγή βίντεο." },
+    "turn_on_retweets": { "message": "Εμφάνιση retweets στο χρονοδιάγραμμα" },
+    "turn_off_retweets": { "message": "Απόκρυψη retweet στο χρονοδιάγραμμα" },
+    "you_can_reply": { "message": "(μπορείτε να απαντήσετε)" },
+    "audience": { "message": "Κοινό" },
+    "who_can_reply": { "message": "Ποιος μπορεί να απαντήσει" },
+    "people_you_follow": { "message": "Άτομα που ακολουθείτε" },
+    "people_you_mention": { "message": "Άτομα που αναφέρετε" },
+    "new_version": { "message": "Ενημερώθηκε σε νέα έκδοση" },
+    "display_sensitive_content": { "message": "Εμφάνιση μέσων που ενδέχεται να περιέχουν ευαίσθητο περιεχόμενο" },
+    "is_private": { "message": "Είναι ιδιωτικό" },
+    "s": { "message": "$NUMBER$δ", "description": "Short for 'second', like '1s' means 1 second", "placeholders": { "number": { "content": "1" } } },
+    "m": { "message": "$NUMBER$λ", "description": "Short for 'minute', like '1m' means 1 minute", "placeholders": { "number": { "content": "1" } } },
+    "h": { "message": "$NUMBER$ω", "description": "Short for 'hour', like '1h' means 1 hour", "placeholders": { "number": { "content": "1" } } },
+    "d": { "message": "$NUMBER$μ", "description": "Short for 'day', like '1d' means 1 day", "placeholders": { "number": { "content": "1" } } },
+    "follow_requests": { "message": "Αιτήματα ακολούθησης" },
+    "accept": { "message": "Αποδοχή" },
+    "decline": { "message": "Απόρριψη" },
+    "mute_convo": { "message": "Σίγαση συνομιλίας" },
+    "unmute_convo": { "message": "Κατάργηση σίγασης συνομιλίας" },
+    "emoji": { "message": "Emoji" },
+    "emoji_btn": { "message": "[emoji]" },
+    "add_emoji": { "message": "Προσθήκη emoji" },
+    "custom": { "message": "Custom" },
+    "smileys_emotion": { "message": "Χαμόγελα και emoticons" },
+    "people_body": { "message": "Άνθρωποι και σώμα" },
+    "animals_nature": { "message": "Ζώα και φύση" },
+    "food_drink": { "message": "Φαγητό και ποτά" },
+    "travel_places": { "message": "Ταξίδια και μέρη" },
+    "activities": { "message": "Δραστηριότητες" },
+    "objects": { "message": "Αντικείμενα" },
+    "symbols": { "message": "Σύμβολα" },
+    "flags": { "message": "Σημαίες" },
+    "categories": { "message": "Κατηγορίες" },
+    "unsupported_emoji": { "message": "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει έγχρωμα emoji." },
+    "cant_load_emoji": { "message": "Δεν ήταν δυνατή η φόρτωση emoji." },
+    "emoji_picker": { "message": "Επιλογέας emoji" },
+    "emoji_search_description": { "message": "Όταν τα αποτελέσματα αναζήτησης είναι διαθέσιμα, πατήστε πάνω ή κάτω για να επιλέξετε και enter για να επιλέξετε." },
+    "search_results": { "message": "Αποτελέσματα αναζήτησης" },
+    "skin_tone_description": { "message": "Όταν επεκταθεί, πατήστε πάνω ή κάτω για να επιλέξετε και enter για να επιλέξετε." },
+    "skin_tone_label": { "message": "Επιλέξτε έναν τόνο δέρματος (προς το παρόν $SKIN_TONE$)", "placeholders": { "skin_tone": { "content": "default" } } },
+    "skin_tones_label": { "message": "Τόνοι δέρματος" },
+    "add_media": { "message": "Προσθήκη πολυμέσων" },
+    "add_poll": { "message": "Προσθήκη ψηφοφορίας" },
+    "add_location": { "message": "Προσθήκη τοποθεσίας" },
+    "schedule_tweet": { "message": "Προγραμματίστε tweet" },
+    "scheduled": { "message": "Προγραμματισμένο" },
+    "drafts": { "message": "Προσχέδια" },
+    "location": { "message": "Τοποθεσία" },
+    "unsent_tweets": { "message": "Μη απεσταλμένα tweets" },
+    "unsent": { "message": "Μη απεσταλμένο" },
+    "will_send": { "message": "Θα σταλεί" },
+    "schedule": { "message": "Πρόγραμμα" },
+    "scheduled_success": { "message": "Το tweet ήταν προγραμματισμένο!" },
+    "see_scheduled": { "message": "Δείτε προγραμματισμένα" },
+    "hasnt_tweeted": { "message": "@$SCREEN_NAME$ δεν έχει κάνει tweet", "placeholders": { "screen_name": { "content": "loading" } } },
+    "when_theyll_tweet": { "message": "Όταν κάνουν, τα Tweets τους θα εμφανίζονται εδώ." },
+    "thank_you2": {
+        "message": "Σας ευχαριστούμε που χρησιμοποιείτε το OldTwitter! Χρειάστηκε πολύς χρόνος και προσπάθεια για την κωδικοποίησή του, μπορείτε να με υποστηρίξετε ακολουθώντας με ή $AT1$κάνοντας δωρεά.$AT2$. Θα ήμουν πολύ ευγνώμων.",
+        "placeholders": { "at1": { "content": "<a target='_blank' href='https://dimden.dev/donate/'>" }, "at2": { "content": "</a>" } }
+    },
+    "something_went_wrong": { "message": "Κάτι δεν πήγαινε καλά" },
+    "notifications_error": { "message": "Δεν ήταν δυνατή η φόρτωση ορισμένων ειδοποιήσεων λόγω σφαλμάτων." },
+    "tweet_error": { "message": "Δεν ήταν δυνατή η φόρτωση ορισμένων tweets λόγω σφαλμάτων." },
+    "error_instructions": {
+        "message": "Αντιγράψτε το παρακάτω κείμενο και στείλτε το στο $AT1$Github$AT2$. Ευχαριστώ!",
+        "placeholders": {
+            "at1": { "content": "<a target='_blank' href='https://github.com/dimdenGD/OldTwitter/issues'>" },
+            "at2": { "content": "</a>" }
+        }
+    },
+    "initialization": { "message": "Εκκίνηση" },
+    "converting": { "message": "Μετατροπή" },
+    "time_mode": { "message": "Ενεργοποιήστε τη σκοτεινή λειτουργία μεταξύ 19:00-09:00" },
+    "show_original_images": { "message": "Εμφάνιση πάντα πρωτότυπης ποιότητας εικόνων" },
+    "pitch_black_mode": { "message": "Λειτουργία Pitch black (μόνο όταν είναι ενεργοποιημένη η σκοτεινή λειτουργία)" },
+    "hide_retweets": { "message": "Απόκρυψη retweets" },
+    "see_tweet_views": { "message": "Δείτε αριθμό προβολών tweets" },
+    "history": { "message": "Ιστορικό" },
+    "autotranslate_tweets": { "message": "Αυτόματη μετάφραση tweets" },
+    "dont_autotranslate": { "message": "Μην μεταφράζετε αυτόματα tweets" },
+    "round_avatars": { "message": "Στρογγυλά avatars" },
+    "search_user_tweets": { "message": "Αναζήτηση tweets χρηστών" },
+    "no_tl_tweets": { "message": "Δεν ακολουθείτε κανέναν, οπότε δεν βρέθηκαν tweets! Αλλάξτε τον τύπο του χρονολογίου σας σε 'Αλγοριθμικός' στις <a href='/old/settings'>ρυθμίσεις του OldTwitter</a>." },
+    "replying_to": { "message": "Απάντηση στο", "description": "Used for mention list. Use 'Mentions' if translation sounds bad in your language.", "example": "Replying to: - user1, - user2" },
+    "display": { "message": "Παρουσίαση", "description": "Used for display settings (fonts, colors, style, etc)" },
+    "twitter_blue_checkmarks": { "message": "Εμφάνιση σημαδιών επιλογής Twitter Blue" },
+    "retweet_hotkey_warn": { "message": "Μόλις πατήσατε το πλήκτρο T που είναι το πλήκτρο πρόσβασης για retweet. Θέλετε να κάνετε retweet αυτό το tweet; Εάν πατήσετε επιβεβαίωση, δεν θα εμφανιστεί ξανά αυτή η προειδοποίηση." },
+    "reply_btn": { "message": "Απάντηση", "description": "Used for reply button." },
+    "retweet_btn": { "message": "Retweet / Παράθεση tweet", "description": "Used for retweet menu button." },
+    "like_btn": { "message": "Μου αρέσει / Δεν μου αρέσει", "description": "Used for like button." },
+    "favorite_btn": { "message": "Αγαπημένο / Μη αγαπημένο", "description": "Used for favorite button." },
+    "views_count": { "message": "Προβολές", "description": "Used for views count." },
+    "mmdd":{ "message": "$MONTH$ $DATE$",  "description":"July 1st", "placeholders": { "month": { "content": "July" },  "date": { "content": "1st" } }},
+    "mmddyy":{ "message": "$MONTH$ $DATE$, $YEAR$",  "description":"July 1st, 2015", "placeholders": { "year": { "content": "2015" },"month": { "content": "July" },  "date": { "content": "1st" } }},
+    "yyyy":{ "message": "$YEAR$",  "description":"2015", "placeholders": { "year": { "content": "2015" } } }
+  }

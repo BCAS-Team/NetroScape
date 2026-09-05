@@ -1,0 +1,53 @@
+<div id="navbar">
+    </script>
+    <div id="navbar-container">
+        <div id="navbar-links">
+            <a href="/home" id="home"><span class="nav-text">__MSG_home__</span></a>
+            <a href="/notifications" id="notifications"><span id="notifications-count" class="nav-count" hidden></span><span class="nav-text">__MSG_notifications__</span></a>
+            <a id="messages"><span id="messages-count" class="nav-count" hidden></span><span class="nav-text">__MSG_messages__</span></a>
+            <a id="pin-profile" hidden><span class="nav-text">__MSG_me__</span></a>
+            <a id="pin-bookmarks" href="/i/bookmarks" hidden><span class="nav-text">__MSG_bookmarks__</span></a>
+            <a id="pin-lists" hidden><span class="nav-text">__MSG_lists__</span></a>
+            <a id="pin-likes" hidden><span class="nav-text">__MSG_likes__</span></a>
+        </div>
+        <div id="twitter-logo-div">
+            <a id="twitter-logo" href="/home"></a>
+        </div>
+        <div id="navbar-right">
+            <div id="search" title="F / ALT+F">
+                <input id="search-input" type="text" placeholder="__MSG_search_twitter__" autocomplete="off" spellcheck="false">
+                <button id="search-icon"></button>
+                <div id="search-results" hidden></div>
+            </div>
+            <div id="navbar-user">
+                <img id="navbar-user-avatar" width="32" height="32">
+                <div id="navbar-user-menu" class="dropdown-menu" hidden>
+                    <div id="navbar-user-menu-links">
+                        <a href="/" id="navbar-user-menu-profile">
+                            <div id="navbar-user-menu-username">__MSG_loading__</div>
+                            <div style="font-size:12px">__MSG_profile__</div>
+                        </a>
+                        <hr id="hr1">
+                        <a href="/old/settings" id="navbar-user-menu-settings">__MSG_settings__</a>
+                        <a href="/i/lists" id="navbar-user-menu-lists">__MSG_lists__</a>
+                        <a href="/i/bookmarks" id="navbar-user-menu-bookmarks">__MSG_bookmarks__</a>
+                        <!-- <a href="/old/history" id="navbar-user-menu-history">__MSG_history__</a> -->
+                        <a href="/old/unfollows/followers" id="navbar-user-menu-unfollowers">__MSG_unfollowers__</a>
+                        <a id="navbar-user-menu-requests" style="display:none">__MSG_follow_requests__ <span id="follow-request-count">0</span></a>
+                        <hr id="hr2">
+                        <a href="/account/switch?newtwitter=true" id="navbar-user-menu-accounts">__MSG_manage_accounts__</a>
+                        <a href="#" id="navbar-user-menu-newtwitter">__MSG_open_newtwitter__</a>
+                    </div>
+                    <div id="navbar-user-accounts"></div>
+                    <hr>
+                    <a href="#" id="navbar-user-menu-logout">__MSG_logout__</a>
+                </div>
+            </div>
+            <button id="navbar-tweet-button" title="N">
+                <span id="navbar-tweet-highlight"></span>
+                <span id="navbar-tweet-button-text">__MSG_tweet__</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="navbar-line"></div>

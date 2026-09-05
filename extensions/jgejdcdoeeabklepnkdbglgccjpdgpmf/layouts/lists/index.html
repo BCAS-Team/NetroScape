@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>__MSG_list__ - __MSG_twitter__</title>
+    <link rel="preconnect" href="https://twitter.com">
+    <link rel="preconnect" href="https://abs.twimg.com">
+    <link rel="preconnect" href="https://pbs.twimg.com">
+    <link rel="preconnect" href="https://dimden.dev">
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+</head>
+<body id="injected-body">
+    <div id="loading-box">
+        <div id="loading-box-container">
+            <span id="loading-box-text">
+                <br><span id="loading-box-error"></span>
+            </span>
+        </div>
+    </div>
+    <header></header>
+    <div id="fake-react-root">
+        <main id="container">
+            <div id="content">
+                <div class="cell" id="left-cell">
+                    <div class="box list-info" id="list-info">
+                        <img id="list-banner" height="100" width="300">
+                        <a id="list-user"><img width="48" height="48" id="list-avatar"></img></a>
+                        <h1 id="list-name">__MSG_loading__</h1>
+                        <div id="list-description"></div>
+                        <br>
+                        <div id="list-stats">
+                            <a class="list-stat-div" id="list-members-div">
+                                <h2>__MSG_members__</h2>
+                                <h1 id="list-members-count">0</h1>
+                            </a>
+                            <a class="list-stat-div" id="list-followers-div">
+                                <h2>__MSG_subscribers__</h2>
+                                <h1 id="list-followers-count">0</h1>
+                            </a>
+                        </div>
+                        <div id="list-actions"></div>
+                    </div>
+                    <div class="box list-switches" style="width: 280px;margin-top:10px;">
+                        <span class="list-switch" id="ns-tweets">__MSG_tweets__</span>
+                        <hr>
+                        <span class="list-switch" id="ns-members">__MSG_list_members__</span>
+                        <hr>
+                        <span class="list-switch" id="ns-followers">__MSG_list_subscribers__</span>
+                    </div>
+                    <div class="about" id="about-left">
+                        <span>
+                            __MSG_running__ <a href="https://github.com/dimdenGD/OldTwitter" target="_blank">OldTwitter</a> v<span id="oldtwitter-version-left">0.0.0</span>.<br>
+                            __MSG_created_by__ <a href="/dimden" target="_blank">dimden</a>.
+                        </span>
+                        <br>
+                        <div class="about-links">
+                            <span>© 2026 dimden</span> 
+                            <a href="https://dimden.dev/" target="_blank">__MSG_website__</a>
+                            <a href="/dimden">Twitter</a>
+                            <a href="https://dimden.dev/donate" target="_blank" id="donate-button">__MSG_donate__</a>
+                        </div>
+                        <div class="about-links">
+                            <span id="twitter-copyright-left">© 2015 Twitter</span> 
+                            <a href="/about">__MSG_about__</a>
+                            <a href="https://support.twitter.com">__MSG_help__</a>
+                            <a href="/tos">__MSG_terms__</a>
+                            <a href="/privacy">__MSG_privacy__</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="cell" id="center-cell">
+                    <div id="list-div">
+                        <div id="list-tweets-container" hidden>
+                            <div class="list-top nice-header box">__MSG_tweets__</div>
+                            <div id="new-tweets" class="center-text" hidden>__MSG_see_new_tweets__</div>
+                            <section>
+                                <div>
+                                    <div>
+                                        <div id="list-tweets"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="list-members-container" hidden>
+                            <div class="list-top nice-header box">__MSG_members__</div>
+                            <div id="list-members"></div>
+                        </div>
+                        <div id="list-followers-container" hidden>
+                            <div class="list-top nice-header box">__MSG_subscribers__</div>
+                            <div id="list-followers"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell" id="right-cell">
+                    <div id="wtf" class="box">
+                        <h1>__MSG_who_to_follow__</h1><br>
+                        <span id="wtf-refresh">__MSG_refresh__</span> <span id="bulletpoint">·</span> <a id="wtf-viewall" target="_blank" href="/i/connect_people?newtwitter=true&user_id=">__MSG_view_all__</a>
+                        <br><br>
+                        <div id="wtf-list"></div>
+                    </div>
+                    <div class="about" id="about-right">
+                        <span>
+                            __MSG_running__ <a href="https://github.com/dimdenGD/OldTwitter" target="_blank">OldTwitter</a> v<span id="oldtwitter-version">0.0.0</span>.<br>
+                            __MSG_created_by__ <a href="/dimden" target="_blank">dimden</a>.
+                        </span>
+                        <br>
+                        <div class="about-links">
+                            <span>© 2026 dimden</span> 
+                            <a href="https://dimden.dev/" target="_blank">__MSG_website__</a>
+                            <a href="/dimden">Twitter</a>
+                            <a href="https://dimden.dev/donate" target="_blank" id="donate-button">__MSG_donate__</a>
+                        </div>
+                        <div class="about-links">
+                            <span id="twitter-copyright-right">© 2015 Twitter</span> 
+                            <a href="/about">__MSG_about__</a>
+                            <a href="https://support.twitter.com">__MSG_help__</a>
+                            <a href="/tos">__MSG_terms__</a>
+                            <a href="/privacy">__MSG_privacy__</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

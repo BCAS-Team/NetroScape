@@ -1,0 +1,57 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "YouTube Redux",
+    "version": "3.12.0",
+    "description": "Replicate old YouTube look and features within the modern layout!",
+    "permissions": ["activeTab", "storage", "scripting"],
+    "optional_permissions": ["downloads"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      }
+    },
+    "icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "exclude_matches": ["*://*.youtube.com/embed/*"],
+        "js": [
+          "helpers/logger.js",
+          "helpers/enums.js",
+          "helpers/states.js", 
+          "initial-setup.js"
+        ],
+        "run_at": "document_start"
+      },
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "exclude_matches": ["*://*.youtube.com/embed/*"],
+        "js": ["main.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["images/*"],
+        "matches": ["*://*.youtube.com/*"]
+      },
+      {
+        "resources": ["helpers/*"],
+        "matches": ["*://*.youtube.com/*"]
+      }
+    ],
+    "manifest_version": 3
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Classic Google Search</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="icons/32.png" alt="" class="logo" />
+    <div>
+      <h1>Classic Google Search</h1>
+      <p class="status" id="statusText">Enabled</p>
+    </div>
+    <label class="switch" title="Enable extension">
+      <input type="checkbox" id="enabledToggle" />
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <section class="options">
+    <label class="option-row">
+      <input type="checkbox" id="redirectSearches" />
+      <span>Redirect searches to Web results (udm=14)</span>
+    </label>
+    <label class="option-row">
+      <input type="checkbox" id="hideAIOverview" />
+      <span>Hide AI Overview</span>
+    </label>
+    <label class="option-row">
+      <input type="checkbox" id="hideAIMode" />
+      <span>Hide AI Mode</span>
+    </label>
+    <label class="option-row">
+      <input type="checkbox" id="autoUpdateSelectors" />
+      <span>Auto-update selectors</span>
+    </label>
+  </section>
+
+  <footer class="actions">
+    <button id="githubBtn" class="link-btn">GitHub</button>
+    <button id="rateBtn" class="link-btn">Rate Extension</button>
+    <button id="reportBtn" class="link-btn">Report Issue</button>
+  </footer>
+
+  <a class="options-link" id="optionsLink" href="#">More settings</a>
+
+  <script src="storage.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
